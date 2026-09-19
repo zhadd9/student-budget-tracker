@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f5;
+    color: #18181b;
+}
+.container {
+    max-width: 650px;
+    margin: 50px auto;
+    padding: 30px;
+}
+h1 {
+    margin-bottom: 5px;
+}
+.subtitle {
+    color: #71717a;
+}
+.summary {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    margin: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+form {
+    display: grid;
+    gap: 12px;
+}
+input,
+select,
+button {
+    padding: 13px;
+    border-radius: 8px;
+    border: 1px solid #d4d4d8;
+    font-size: 15px;
+}
+button {
+    background: #18181b;
+    color: white;
+    cursor: pointer;
+}
+.expense {
+    background: white;
+    padding: 16px;
+    margin-top: 12px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.expense small {
+    color: #71717a;
+}
+.delete {
+    background: none;
+    color: #dc2626;
+    border: none;
+    cursor: pointer;
+}
